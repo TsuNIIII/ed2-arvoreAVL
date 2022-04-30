@@ -165,18 +165,25 @@ class No {
     
     public static void main(String[] args) {
       ArvoreAVL arvore = new ArvoreAVL();
+
+      //7, 3, 18, 10, 22, 8, 11, 26, 2, 6 e 13
       
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 33);
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 13);
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 53);
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 9);
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 21);
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 61);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 7);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 3);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 18);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 10);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 22);
       arvore.raiz = arvore.inserirNo(arvore.raiz, 8);
       arvore.raiz = arvore.inserirNo(arvore.raiz, 11);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 26);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 2);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 6);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 13);
+
+      System.out.println("Arvore Completa Balanceada: ");
       arvore.Imprimir(arvore.raiz, "", true);
-      arvore.raiz = arvore.deletar(arvore.raiz, 13);
-      System.out.println("After Deletion: ");
+
+      System.out.println("Arovre Completa Balanceada (Apos Remoçao): ");
       arvore.Imprimir(arvore.raiz, "", true);
     }
   }
