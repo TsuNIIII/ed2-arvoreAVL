@@ -183,7 +183,7 @@ class No {
       System.out.println("|             d8888888b Y8b     Y8P     888,d88            |");
       System.out.println("|                                                          |");
       System.out.println("|                        version 1.0                       |");
-      System.out.println("|  Made by V. Lôbo, F. Vinícius, L. Antônio and V.         |");
+      System.out.println("|  Made by V. Lôbo, F. Vinícius, L. Antônio and J. Victor  |");
       System.out.println("|----------------------------------------------------------|");
 
       //7, 3, 18, 10, 22, 8, 11, 26, 2, 6 e 13
