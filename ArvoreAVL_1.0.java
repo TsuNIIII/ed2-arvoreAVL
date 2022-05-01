@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class No {
     int dado, altura;
     No esq, dir;
@@ -166,24 +168,39 @@ class No {
     public static void main(String[] args) {
       ArvoreAVL arvore = new ArvoreAVL();
 
+      System.out.println("|----------------------------------------------------------|");
+      System.out.println("|     e Y8b                                                |");
+      System.out.println("|    d8b Y8b    888,8, Y8b Y888P  e88 88e  888,8,  ,e e,   |");
+      System.out.println("|   d888b Y8b   888 /   Y8b Y8P  d888 888b 888 /  d88 88b  |");
+      System.out.println("|  d888888888b  888      Y8b /   Y888 888P 888    888   ,  |");
+      System.out.println("| d8888888b Y8b 888       Y8P     /88 88/  888    `YeeP/   |");
+      System.out.println("|                                                          |");
+      System.out.println("|                                                          |");
+      System.out.println("|                 e Y8b     Y8b Y88888P 888                |");
+      System.out.println("|                d8b Y8b     Y8b Y888P  888                |");
+      System.out.println("|               d888b Y8b     Y8b Y8P   888                |");
+      System.out.println("|              d888888888b     Y8b Y    888  ,d            |");
+      System.out.println("|             d8888888b Y8b     Y8P     888,d88            |");
+      System.out.println("|                                                          |");
+      System.out.println("|                        version 1.0                       |");
+      System.out.println("|  Made by V. Lôbo, F. Vinícius, L. Antônio and V.         |");
+      System.out.println("|----------------------------------------------------------|");
+
       //7, 3, 18, 10, 22, 8, 11, 26, 2, 6 e 13
-      
+
       arvore.raiz = arvore.inserirNo(arvore.raiz, 7);
       arvore.raiz = arvore.inserirNo(arvore.raiz, 3);
       arvore.raiz = arvore.inserirNo(arvore.raiz, 18);
       arvore.raiz = arvore.inserirNo(arvore.raiz, 10);
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 22);
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 8);
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 11);
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 26);
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 2);
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 6);
-      arvore.raiz = arvore.inserirNo(arvore.raiz, 13);
 
+      System.out.println("===========================================");
       System.out.println("Arvore Completa Balanceada: ");
       arvore.Imprimir(arvore.raiz, "", true);
-
+      System.out.println("===========================================");
+      System.out.println("");
+      System.out.println("===========================================");
       System.out.println("Arovre Completa Balanceada (Apos Remoçao): ");
       arvore.Imprimir(arvore.raiz, "", true);
+      System.out.println("===========================================");
     }
   }
