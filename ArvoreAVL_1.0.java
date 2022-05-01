@@ -192,6 +192,13 @@ class No {
       arvore.raiz = arvore.inserirNo(arvore.raiz, 3);
       arvore.raiz = arvore.inserirNo(arvore.raiz, 18);
       arvore.raiz = arvore.inserirNo(arvore.raiz, 10);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 22);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 8);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 11);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 26);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 2);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 6);
+      arvore.raiz = arvore.inserirNo(arvore.raiz, 13);
 
       System.out.println("===========================================");
       System.out.println("Arvore Completa Balanceada: ");
